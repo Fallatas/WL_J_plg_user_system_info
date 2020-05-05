@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="user" method="upgrade">
+    <name>PLG_USER_WL_SYSTEM_INFO</name>
+    <version>1.0.0</version>
+    <creationDate>05.05.2020</creationDate>
+    <author>Thomas Winterling</author>
+    <authorEmail>info@winterling-labs.com</authorEmail>
+    <license>GNU/GPLv2 only</license>
+    <description>PLG_USER__WL_SYSTEM_INFO_XML_DESCRIPTION</description>
+    <languages>
+		<language tag="de-DE">language/de-DE/de-DE.plg_user_wl_system_info.sys.ini</language>
+    </languages>
+    <files>
+        <filename plugin="wl_system_info">wl_system_info.php</filename>
+    </files>
+</extension>
